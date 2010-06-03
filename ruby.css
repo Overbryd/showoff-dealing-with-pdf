@@ -1,0 +1,18 @@
+.sh_Ruby .sh_normal {}
+.sh_Ruby .sh_comment { color: #005; font-style: italic; }
+.sh_Ruby .sh_keyword { color: #A00; font-weight: bold; }
+.sh_Ruby .sh_method { color: #077; }
+.sh_Ruby .sh_class { color: #074; }
+.sh_Ruby .sh_module { color: #050; }
+.sh_Ruby .sh_punct { color: #447; font-weight: bold; }
+.sh_Ruby .sh_symbol { color: #099; }
+.sh_Ruby .sh_string { color: #944; }
+.sh_Ruby .sh_char { color: #F07; }
+.sh_Ruby .sh_ident { color: #004; }
+.sh_Ruby .sh_constant { color: #07F; }
+.sh_Ruby .sh_regex { color: #B66; }
+.sh_Ruby .sh_number { color: #F99; }
+.sh_Ruby .sh_attribute { color: #7BB; }
+.sh_Ruby .sh_global { color: #7FB; }
+.sh_Ruby .sh_expr { color: #227; }
+.sh_Ruby .sh_escape { color: #277; }

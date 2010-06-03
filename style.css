@@ -1,0 +1,65 @@
+@import url('ruby.css');
+body {
+  font-family: Helvetica;
+  color: #;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: underline;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold
+}
+
+blockquote {
+  font-size: 32px;
+  padding: 10px;
+}
+
+code {
+  font-family: "Andale Mono";
+  font-size: 36px;
+  line-height: 48px;
+  padding: 10px;
+  display: block;
+  background: #ffe;
+}
+
+p.caption {
+  margin-top: 20px;
+  margin-right: 50px;
+  float: right;
+  font-style: italic;
+  font-size: 20px;
+}
+
+div.slide {
+  overflow-y: auto;
+}
+
+span.current:before, span.current:after {
+  content: "&gt;";
+}
+
+#footer {
+  border-top:1px solid grey;
+}
+
+#slideInfo {
+  float: right;
+  padding-right: 14px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  color: grey;
+}

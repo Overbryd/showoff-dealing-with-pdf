@@ -1,0 +1,10 @@
+{
+  "sections": [
+    {"section":"01_intro"},
+    {"section":"02_about_pdf"},
+    {"section":"03_pdf_and_ruby"},
+    {"section":"04_creation_and_generation"},
+    {"section":"05_reading_and_modifying"},
+    {"section":"06_roundup"}
+  ]
+}

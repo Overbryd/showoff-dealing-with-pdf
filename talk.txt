@@ -1,0 +1,30 @@
+* General (technical) things about PDF
+  What is PDF?
+    Portable Document Format, created by Adobe in 1993
+    Combines three technical foundations
+      A subset of PostScript (Layouts, Graphics)
+      A font-embedding/replacing system to allow fonts to travel with the document
+      A structured storage system to bundle all elements and associated contents into a single file
+* PDF and Ruby
+  Libraries for creating PDFs
+    
+  Libraries for reading PDFs
+  
+  PDFUtils
+
+* UNIX tools for PDFs
+  
+* Testing generated PDFs
+  
+* PDFUtils
+
+    Test PDF's by checking objects, metadata or the plain text.
+
+    Simply generate and merge overlays instead of editing a template PDF file.
+    (So you don't have to mess with the PDF spec directly)
+
+    Merge different PDF files, generated ones/existing ones into a new one.
+
+    Annotate PDF files with native PDF Annotations (highlights, notes).
+
+    Exctract the table of contents!

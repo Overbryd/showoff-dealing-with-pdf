@@ -1,0 +1,151 @@
+!SLIDE bullets incremental
+
+# My PDF Talk
+
+* Basic overview on PDF itself
+* Creating PDF files
+* Reading / Modifying PDF files
+* Some useful References
+
+!SLIDE
+
+## PDF is a platform independent file format for exchangeable documents.
+
+!SLIDE
+
+    % A Page object
+    1 0 obj
+    <<
+      /Type /Page
+      /Parent 5 0 R
+      /Resources 3 0 R
+      /Contents 2 0 R
+    >>
+    endobj
+
+!SLIDE
+
+    % Texting Hello World
+    2 0 obj
+    <<
+      /Length 51
+    >>
+      stream
+        BT
+        /F1 24 Tf
+        1 0 0 1 260 254 Tm
+        (Hello World)Tj
+        ET
+      endstream
+    endobj
+
+!SLIDE
+
+    %PDF-1.3
+    %ÿÿÿÿ
+    1 0 obj
+    <<
+      /Creator (Prawn)
+      /Producer (Prawn)
+    >>
+    endobj
+    2 0 obj
+    <<
+      /Kids [5 0 R]
+      /Type /Pages
+      /Count 1
+    >>
+    endobj
+    3 0 obj
+    <<
+      /Type /Catalog
+      /Pages 2 0 R
+    >>
+    endobj
+    4 0 obj
+    <<
+      /Length 165
+    >>
+      stream
+        /DeviceRGB cs
+        0.000 0.000 0.000 scn
+        /DeviceRGB CS
+        0.000 0.000 0.000 SCN
+        q
+        BT
+          36.0 747.384 Td
+          /F1.0 12 Tf
+          [<48656c6c6f> 40 <2c2077> 10 <6f72> -15 <6c6421>] TJ
+        ET
+        Q
+      endstream
+    endobj
+    5 0 obj
+    <<
+      /Parent 2 0 R
+      /Resources
+      <<
+        /Font
+        <<
+          /F1.0 6 0 R
+        >>
+        /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+      >>
+      /MediaBox [0 0 612.0 792.0]
+      /Type /Page
+      /Contents 4 0 R
+    >>
+    endobj
+    6 0 obj
+    <<
+      /BaseFont /Helvetica
+      /Encoding /WinAnsiEncoding
+      /Type /Font
+      /Subtype /Type1
+    >>
+    endobj
+    xref
+    0 7
+    0000000000 65535 f 
+    0000000015 00000 n 
+    0000000071 00000 n 
+    0000000128 00000 n 
+    0000000177 00000 n 
+    0000000393 00000 n 
+    0000000571 00000 n 
+    trailer
+    <<
+      /Size 7
+      /Root 3 0 R
+      /Info 1 0 R
+    >>
+    startxref
+    668
+    %%EOF
+
+!SLIDE
+
+## It is based on three technical foundations
+
+!SLIDE
+
+## A subset of PostScript
+### Layouts, Graphics
+
+!SLIDE
+
+## A font-embedding/replacing system
+### Allow fonts to travel with the document
+
+!SLIDE
+
+## A structured storage system
+### Bundle everything into a single file
+### Object compression possible
+
+    $ pdftk compressed.pdf uncompress \
+      output uncompressed.pdf
+
+!SLIDE
+
+    
